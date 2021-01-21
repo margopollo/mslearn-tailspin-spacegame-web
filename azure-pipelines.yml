@@ -17,7 +17,7 @@ variables:
   dotnetSdkVersion: '3.1.300'
 
 steps:
-- task: UseDontNet@2
+- task: UseDotNet@2
   displayName: 'Use .NET Cor SDK $(dotnetSdkVersion)'
   inputs:
     version: '$(dotnetSdkVersion)'
